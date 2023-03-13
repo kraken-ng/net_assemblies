@@ -20,7 +20,7 @@
 
 ---
 
-This repository contains the **NET Assemblies** to be used in [Kraken](https://github.com/kraken-ng/Kraken) via `execute_assembly` module.
+This repository contains the **NET Assemblies** to be used in [Kraken](https://github.com/kraken-ng/Kraken) via [execute_assembly](https://github.com/kraken-ng/modules/tree/main/execute_assembly) module.
 
 List of available NET Assemblies:
 
