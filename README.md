@@ -24,5 +24,8 @@ This repository contains the **NET Assemblies** to be used in [Kraken](https://g
 
 List of available NET Assemblies:
 
-- [**BadPotato-mod**](bin/BadPotato-mod/README.md): is a modified version of the original BadPotato that allows you to elevate privileges to **NT AUTHORITY SYSTEM** by abusing **SeImpersonate** Privilege.
 - [**Dummy**](bin/Dummy/README.md): dummy binary to validate the loading of NET Assemblies (it simply returns the arguments passed in the NET Assembly invocation, as an "echo").
+- [**BadPotato-mod**](bin/BadPotato-mod/README.md): is a modified version of the original BadPotato that allows you to elevate privileges to **NT AUTHORITY SYSTEM** by abusing **SeImpersonate** Privilege.
+- [**PrinterNotifyPotato-mod**](bin/PrinterNotifyPotato-mod/README.md): is a modified version of the original PrinterNotifyPotato that allows you to elevate privileges to **NT AUTHORITY SYSTEM** by abusing **SeImpersonate** Privilege.
+- [**McpManagementPotato-mod**](bin/McpManagementPotato-mod/README.md): is a modified version of the original McpManagementPotato that allows you to elevate privileges to **NT AUTHORITY SYSTEM** by abusing **SeImpersonate** Privilege.
+- [**EfsPotato-mod**](bin/EfsPotato-mod/README.md): is a modified version of the original EfsPotato that allows you to elevate privileges to **NT AUTHORITY SYSTEM** by abusing **SeImpersonate** Privilege.
