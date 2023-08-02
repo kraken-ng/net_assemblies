@@ -30,9 +30,9 @@ optional arguments:
   -m M       Method to call inside Assembly.
 
 Examples:
-  execute_assembly -f ~/Kraken/test/net_assemblies/badpotato_net40_x64.exe -n BadPotato -c Program -m call
-  execute_assembly -f ~/Kraken/test/net_assemblies/dummy_net40_x64.exe -n BadPotato -c Program -m call -- Ping
-  execute_assembly -f ~/Kraken/test/net_assemblies/dummy_net40_x64.exe -n BadPotato -c Program -m call -- Ping -h --help
+  execute_assembly -f ~/Kraken/net_assemblies/bin/BadPotato-mod/BadPotato_net40_x64.exe -n BadPotato -c Program -m call
+  execute_assembly -f ~/Kraken/net_assemblies/bin/Dummy/dummy_net40_x64.exe -n Dummy -c Program -m Main -- Ping
+  execute_assembly -f ~/Kraken/net_assemblies/bin/Dummy/dummy_net20_x64.exe -n Dummy -c Program -m Main -- Ping -h --help
 
 (ST) IIS APPPOOL\DefaultAppPool@DESKTOP-8D0OEQR:C:/inetpub/wwwroot$ execute_assembly -f /home/secu/net_assemblies/bin/Dummy/dummy_net40_x64.exe -n Dummy -c Program -m call -- arg1 arg2 arg3
 arg1<space>arg2<space>arg3
